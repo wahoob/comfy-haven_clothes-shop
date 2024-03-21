@@ -26,7 +26,7 @@ const NoMatch = () => {
                 manRef.current,
                 {
                     rotate: 2,
-                    x: -170,
+                    translateX: "-47%",
                     duration: 5,
                     ease: "sine.out",
                 },
@@ -102,7 +102,7 @@ const NoMatch = () => {
                 <img
                     src={manfloat}
                     alt="man float"
-                    className="absolute bottom-0 max-w-72 lg:max-w-96 left-1/2 -translate-x-[calc(50%+3px)] -rotate-2"
+                    className="absolute bottom-0 max-w-72 lg:max-w-96 left-1/2 -translate-x-[53%] -rotate-2"
                     ref={manRef}
                 />
                 <img
